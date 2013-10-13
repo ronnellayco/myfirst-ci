@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;   
+}
+
+a
+{
+    text-decoration: none;
+    color: #e18a07;
+    
+    -moz-transition-duration: 200ms;
+    -webkit-transition-duration: 200ms;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background: #000 url(/images/background.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+    width: 950px;
+}
+
+#header
+{
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    background: url(/images/trans_light.png);
+}
+
+#header div.left
+{
+    float:left;
+    width: 45%;
+    margin: 5px 0;
+}
+#header div.left img.logo
+{
+    float:left;
+    width: 80px;
+    margin: 10px 10px 5px 10px;
+}
+#header div.left h1
+{
+    float: left;
+    color: #e18a07;
+    margin-top: 25px;
+    text-shadow: -1px -1px 3px #fff;
+    -moz-text-shadow: -1px -1px 3px #fff;
+    -webkit-text-shadow: -1px -1px 3px #fff;
+}
+
+#header div.right
+{
+    float: right;
+    width: 45%;
+    margin: 5px 0;
+}
+
+#nav
+{
+    float: left;
+    width: 100%;
+}
+
+#nav ul
+{
+    float: left;
+    width: 100%;
+    display: table;
+}
+
+#nav ul li
+{
+    width: 20%;
+    display: table-cell;
+    list-style: none;
+    text-align: center;
+}
+
+#nav ul li a
+{
+    float:left;
+    width: 96%;
+    padding: 5px 0;
+    margin: 0 2%;
+    background-color: #000;
+    font-size: 14px;
+}
+
+#nav ul li a:hover
+{
+    color: #000;
+    background-color: #e18a07;
+}
+
+#sliderWrapper
+{
+    float:left;
+    width: 96%;
+    margin: 2%;
+}
+
+#mainbody
+{
+    float:left;
+    width: 96%;
+    padding: 2%;
+    background: url(/images/trans_light.png);
+    font-size: 14px;
+    color: #fff;
+}
+
+#contentIn h1
+{
+    margin-bottom: 10px;
+}
+
+#footer
+{
+    float:left;
+    width: 98%;
+    padding: 1%;
+    margin-top: 10px;
+    background: url(/images/trans_light.png);
+}
+
+#footer .left
+{
+    font-size: 12px;
+    color: #fff;
+}
