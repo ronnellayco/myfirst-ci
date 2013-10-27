@@ -9,13 +9,15 @@ class Home extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        $this->load->library('session');
+        $this->load->library('AdminHandler');
         
-//        if(!isset($_SESSION['admin']))
-//        {
-//            $this->invalidlogin();
-//            exit;
-//        }
-//        else $this->index();
+        $ses = $this->session->userdata('admin');
+        if($ses['id'] <= 0 || $ses['admin'] == false)
+        {
+            header('Location: /uadmin');
+            exit;
+        }
     }
     
     public function invalidlogin()

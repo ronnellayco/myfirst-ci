@@ -55,9 +55,9 @@ class PageHandler extends CI_Controller
 
             //get the panels
             
-           $a = APPPATH . 'controllers/panels/'.'leftCategory'. '.php';
+           $a = APPPATH . 'controllers/panels/'.'CategoryPanel'. '.php';
            include_once $a;
-           $a = new LeftCategory();
+           $a = new CategoryPanel();
           
          // dump($a->index());
                 //load main page content

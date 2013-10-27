@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class LeftCategory extends CI_Controller
+class CategoryPanel extends CI_Controller
 {
     public function __construct()
     {

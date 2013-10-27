@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "home";
 $route['uadmin'] = "dashboard/admin/login";
+$route['logout'] = "dashboard/admin/logout";
 $route['404_override'] = 'pagehandler'; 
 
 
